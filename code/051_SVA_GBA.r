@@ -4,7 +4,8 @@ library(dplyr)
 # SNV
 # setwd("/home/mdnl/Documents/Tam_14Mar25/MD/variant_calling/WES_Korean/vep")
 
-cons_type <- c("missense", "LoF")
+# cons_type <- c("missense", "LoF")
+cons_type <- c("missense", "utr", "syno", "LoF")
 
 for (c in cons_type) {
     print(c)
